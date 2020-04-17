@@ -1,0 +1,73 @@
+body{
+    background: url(beach.jpg) no-repeat center center fixed;
+    background-size: cover;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 32px;
+   color: white
+}
+section{
+       max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(96, 92, 60, 0.774); 
+    border-radius: 20px;
+}
+
+section img{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+
+  
+}
+/* .image{
+width: 150px;
+height: 150px;
+border: 2px solid #ccc;
+background : url(smaleer.png)  no-repeat center center fixed;
+ background-size: cover;
+border-radius: 50%;
+
+} */
+
+article {
+    max-width: 1000px;
+ 
+    text-align:left;
+}
+.container{
+    border: .2rem solid #0000007a;
+    padding: 1rem;
+    border-radius: 20px;
+ 
+}
+.container h4{
+    text-align: center;
+   
+}
+
+label,
+input,
+textarea{
+   display: block;
+   width: 70%;
+   margin: 0.3rem auto;
+   padding: 0.5rem;
+  
+}
+
+
+
+button{
+   margin: 0.5rem ;
+   margin-left: 20rem;
+   padding : 0.5rem 1rem;
+
+  border-style: none;
+      border-radius: 5px;
+}
+
+button:hover{
+    background-color: grey;
+}
